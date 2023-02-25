@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>513</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>190</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/picture/C:/Users/yyc/Desktop/picture/mainwindow-logo.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>0</y>
+      <width>660</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(20, 146, 202);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>10</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/picture/C:/Users/yyc/Desktop/picture/mainwindow-top2.svg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>10</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/picture/C:/Users/yyc/Desktop/picture/列表.svg);
+border-image: url(:/picture/C:/Users/yyc/Desktop/picture/mainwindow-top6.svg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>10</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/picture/C:/Users/yyc/Desktop/picture/mainwindow-top5.svg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>10</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/picture/C:/Users/yyc/Desktop/picture/mainwindow-top1.svg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>10</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/picture/C:/Users/yyc/Desktop/picture/mainwindow-top3.svg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>10</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/picture/C:/Users/yyc/Desktop/picture/mainwindow-top4.svg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>50</y>
+      <width>547</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(20, 146, 202);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>权限管理</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>最高权限</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>管理者权限</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>访问者权限</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(20, 146, 202);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>设备管理</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>硬件管理</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>端口管理</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="BatInfoComboBox">
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(20, 146, 202);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>电池主要信息</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>报文接收发送</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>电芯单体信息</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>pack电压</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>cluster电压</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>参数数据</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>报警数据</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>电流数据</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>开关数据</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_4">
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(20, 146, 202);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>电池组单元管理</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>电池系统主窗口</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>.dbc窗口</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>.sym窗口</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_5">
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(20, 146, 202);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>数据储存</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>数据下载</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>故障录波</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_6">
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(20, 146, 202);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>固件升级</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>horizontalLayoutWidget</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

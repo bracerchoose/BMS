@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/picture">
+        <file>C:/Users/yyc/Desktop/picture/avatar02.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/close_line.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/fullscreen_arrow_exit_line.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/lock_line.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/user_line.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/message.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/choose.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/mainwindow-statusline.jpg</file>
+        <file>C:/Users/yyc/Desktop/picture/mainwindow-logo.jpg</file>
+        <file>C:/Users/yyc/Desktop/picture/mainwindow-bug.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/mainwindow-close.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/mainwindow-reduce.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/mainwindow-suitable.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/mainwindow-top1.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/mainwindow-top2.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/mainwindow-top3.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/mainwindow-top4.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/mainwindow-top5.svg</file>
+        <file>C:/Users/yyc/Desktop/picture/mainwindow-top6.svg</file>
+    </qresource>
+</RCC>

@@ -39,6 +39,28 @@ else()
     widget.cpp
     widget.h
     widget.ui
+    logindialog.cpp
+    logindialog.h
+    logindialog.ui
+    picture.qrc
+    pwdsignupdialog.h
+    pwdsignupdialog.ui
+    pwdsignupdialog.cpp
+    vercodesignupdialog.h
+    vercodesignupdialog.ui
+    vercodesignupdialog.cpp
+    forgetpwddialog.h
+    forgetpwddialog.ui
+    forgetpwddialog.cpp
+    mainwindow.h
+    mainwindow.ui
+    mainwindow.cpp
+    reandtramessagewidget.h
+    reandtramessagewidget.ui
+    reandtramessagewidget.cpp
+    editmessage.cpp
+    editmessage.h
+    editmessage.ui
   )
 endif()
 
